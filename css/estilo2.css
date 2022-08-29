@@ -1,0 +1,240 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+#navbar {
+    border: solid;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: solid 3px black;
+    box-sizing: border-box;
+    font-size: xx-large;
+    background-color: black;
+}
+
+#contact {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#formulario {
+    display: flex;
+    width: 25%;
+    flex-flow: column;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, khaki, grey)
+}
+
+nav ul {
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.mainVideos {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: khaki;
+    align-items: center;
+    padding: 25px;
+    background: linear-gradient(to right, khaki, grey)
+}
+
+.mainAlbums {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: khaki;
+    align-items: center;
+    padding: 25px;
+    background: linear-gradient(to right, khaki, grey)
+}
+
+.mainStore {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: khaki;
+    align-items: center;
+    height: 325px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, khaki, grey)
+}
+
+.mainContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    text-align: center;
+    background-color: khaki;
+    align-items: center;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, khaki, grey)
+}
+
+#tablita {
+    width: 50%;
+    border: none;
+}
+
+.listNumber {
+    list-style-type: none;
+    text-align: initial;
+    padding: 15px
+}
+
+.overflowIndex {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.ytlinkIndex {
+    text-decoration: underline;
+    color: black;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: khaki
+}
+
+.parcelsImg {
+    width: 1050px;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.linksubrayadoIndex {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.vidContainer {
+    width: 100%;
+    height: auto;
+}
+
+.vidContainer iframe {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+}
+
+.logoContainer img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+@media (max-width: 1300px) {
+    .encabezado {
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+    nav {
+        width: 90%;
+
+    }
+    nav ul {
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px) {
+    nav ul li {
+        font-size: 20px;
+    }
+
+    .overflowIndex h1 {
+        font-size: 25px;
+    }
+
+    .overflowIndex h3 {
+        font-size: 15px;
+    }
+
+    footer {
+        height: auto;
+        align-items: center;
+        font-size: large;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 650px) {
+    footer {
+        flex-direction: column;
+    }
+    .ytlinkIndex {
+        font-size: 25px;
+
+    }
+    footer a {
+        padding: 5px 0;
+    }
+}
