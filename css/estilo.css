@@ -160,6 +160,9 @@ h1{
     height: auto;
     padding-top: 25px;
     padding-bottom: 25px;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
 }
 
 @media (max-width: 1300px) {
